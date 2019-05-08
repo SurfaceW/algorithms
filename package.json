@@ -1,0 +1,25 @@
+{
+  "name": "nan.algorithms",
+  "version": "1.0.0",
+  "description": "algorithm lib for nan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SurfaceW/algorithms.git"
+  },
+  "keywords": [
+    "AlgorithmStudy"
+  ],
+  "author": "surfacew@163.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SurfaceW/algorithms/issues"
+  },
+  "homepage": "https://github.com/SurfaceW/algorithms#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}

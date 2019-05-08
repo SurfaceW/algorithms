@@ -1,7 +1,6 @@
 const { switchIndex } = require('../utils/lang');
 
 function maxHeapify(data, index) {
-  // it has the sub node
   if (2 * index > data.length - 1) {
     return;
   }
@@ -29,7 +28,6 @@ function buildMaxHeap(data = []) {
 function heapSort(data = []) {
   const heap = buildMaxHeap(['x', ...data]);
   const heapLength = data.length;
-  console.log('build heap', heap);
   const result = [];
   for (let i = heapLength; i >= 1; i--) {
     switchIndex(heap, 1, i);
