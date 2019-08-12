@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/SurfaceW/algorithms#readme",
   "dependencies": {
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.15"
   }
 }
