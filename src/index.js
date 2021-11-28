@@ -1,3 +1,3 @@
 // FOR DEBUG USE
-debugger;
 console.log('hello, debugger');
+require('./ds/binaryTree/invertBTree');
