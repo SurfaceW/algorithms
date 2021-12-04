@@ -1,4 +1,4 @@
-# 算法の太空漫游
+# Arno's Trip in Algorithm
 
 > 一个 FE 对算法的探索 & 旅程
 
