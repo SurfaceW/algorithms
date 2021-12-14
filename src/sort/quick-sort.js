@@ -6,6 +6,13 @@ function switchEle(arr, c1, c2) {
   arr[c2] = temp; 
 }
 
+/**
+ * 快速排序算法本质上属于一种交换排序算法
+ * - 每一次确认一个数字的具体标位
+ * - 随后使用递归的思路，将问题分解为左右两个子数组中确认排位的子问题
+ * 
+ * 也算是分治策略的一种实现了。
+ */
 function quickSort(left, right) {
   if (left > right) return;
   const temp = arr[left];

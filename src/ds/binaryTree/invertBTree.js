@@ -12,6 +12,7 @@ var invertTree = function (root) {
     root[leftIndex] = root[rightIndex] || 0;
     root[rightIndex] = left || 0;
     if (!!root[leftIndex] || !!root[rightIndex]) {
+      // warning: 交换的节点要注意是左左与右右，左右和右左进行交换
       switchNode(leftIndex * 2 + 1, rightIndex * 2 + 2);
       switchNode(rightIndex * 2 + 1, leftIndex * 2 + 2);
     }
