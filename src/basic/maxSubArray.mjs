@@ -6,6 +6,11 @@
 
 const sumList = [];
 
+/**
+ * 构造子问题最优解
+ * m(i) 记录序列为 i 时候的最优解
+ * m(i + 1) = Math.max(m(i) + arr[i+1], arr[i+1])
+ */
 export function getMaxSubArray(arr = []) {
   sumList[0] = arr[0];
   for (let i = 0; i < arr.length - 1; i++) {
